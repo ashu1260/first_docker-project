@@ -1,42 +1,27 @@
-#@ DOCKER_IIEC_RISE_PROJECT
+# myfirst docker project 
 
-Introduction :
+Introduction:
 
-Docker project on launching owncloud in my system by using docker container over rhel 8 
-and u can put your gb's of data here which will be safe and secure for us and i am able to create 
-this project only because of iiec_rise campaign 1.0 under the great mentor and the world 
-record holder Mr.Vimal Daga https://www.linkedin.com/in/vimaldaga/ and i can not explain 
-about sir in words.
 
-And i would like to thank Mr.Vimal Daga Sir and Preeti Mam for such an great initiative iiec_rise
+This is my first Docker project built on running multiple containers and creating the entire enviorment just with running a single file for your "own cloud".
+and  where u can put your gb's of data which will be safe and secure for us and shareable too.
 
- I have used rhel 8(host  os) on the top of windows(base os) by virtualization using tool virtual box
- - before runnning any docker container you may need to off firewall and SELinux security 
-   
-   for firewall systemctl stop firewalld
-   
-   for SELinux  setenforce 0
-   
-For running this project u can follow steps shown in my Docker_Project.docx file with screenshot but, it might be possible to view docx file u have to download it first by clicking on view raw or u can u can just do few things i.e. 
-install owncloud image
-docker pull ownlcloud:latest
-install mysql image
-setup mysql as shown in Docker_Project.docx file
-install docker-compose and inside any dir create ur docker-compose.yml
-and paste the code of my docker-compose.yml
-Then , run the cmd docker-compose up -d inside the directory
-and then run docker ps  and see the IP of owncloud container running their by docker insoect
-(id of owncloud contaner) | grep IP & thats all guy's put this IP in firefox their will be 
-owncloud home page in front of you where u can upload your data and enjoy.
 
-used things in this project :
-:- docker contaniner
 
-:- owncloud:latest image
+concepts and things used in this project :-
 
-:- mysql database
 
-:- rhel 8
+- docker contaniner
 
-:- yml file
+- volumes 
+
+- docker compose 
+
+- owncloud:latest image
+
+- mysql database
+
+- rhel 8
+
+- yml file
 
