@@ -1,6 +1,6 @@
 # myfirst docker project 
 
-Introduction:
+
 
 
 This is my first Docker project built on running multiple containers and creating the entire enviorment just with running a single file for your "own cloud".
